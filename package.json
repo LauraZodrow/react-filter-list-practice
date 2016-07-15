@@ -1,0 +1,41 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "Super simple React starter repo",
+  "main": "server.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base public/ --progress --colors",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/applegrain/react-playground.git"
+  },
+  "author": "Lovisa Svallingson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/applegrain/react-playground/issues"
+  },
+  "homepage": "https://github.com/applegrain/react-playground",
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "node-libs-browser": "^0.5.2",
+    "nodemon": "^1.9.1",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.15.5",
+    "express": "^4.13.3",
+    "jquery": "^2.2.3",
+    "react": "^0.14.3",
+    "react-addons": "^0.9.1-deprecated",
+    "react-dom": "^0.14.3",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.9"
+  }
+}
